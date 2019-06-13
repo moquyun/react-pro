@@ -1,8 +1,8 @@
-import '@/style'
 import React from 'react'
 import ReactDom from 'react-dom'
+import App from '@/components/App'
 
 ReactDom.render(
-  <div>hello</div>,
+  <App />,
   document.getElementById('root')
 )
